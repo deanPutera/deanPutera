@@ -131,10 +131,16 @@
 	align-content: center;
 }
 
+.Description
+{
+	color: aquamarine;
+	align-content: center;
+}
+
 .cekGame
 {
-	font-family: arial, verdana, sans-serif;
-	color: skyblue;
+	background-size: cover;
+	background-color: sienna;
 	width: 75%;
 	align-content: center;
 }
@@ -142,13 +148,13 @@
 .cekVideoText
 {
 	font-family: arial, verdana, sans-serif;
-	color: slateblue;
+	color: chartreuse;
 }
 
 .cekGameText
 {
-	background-size: cover;
-	background-color: sienna;
+	font-family: arial, verdana, sans-serif;
+	color: cornflowerblue;
 }
 
 .textPilihan
