@@ -4,3 +4,19 @@ body
     background-image: url(heart3.gif);
     background-size: cover;
 }
+
+h1
+{
+    font-family: Kunstler Script;
+    font-size: 60pt;
+    font-weight: bold;
+    position: absolute;
+    left: 60px;
+}
+
+img
+{
+    position: absolute;
+    top: 141px;
+    left: 100px;
+}
