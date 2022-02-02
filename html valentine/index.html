@@ -6,11 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hari Valentine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="heart.gif" type="image/*">
+    
 </head>
-<body>
-    <h1 align="left">Selamat</h1>
-    <h1 align="left">Hari</h1>
-    <h1 align="left">Valentine</h1>
-    <img src="heart2.gif" alt="heart" height="200px">
+<body id="bodyAndroid">
+  <h1 id="selamat">Semoga Hari Valentine ini semakin menyatukan kita dan memberi kita kebahagiaan. Selamat hari Valentine untuk semua.</h1>
+  <img id="imgAndroid" src="heart2.gif" alt="heart" height="200px">
+  <script>
+    var Name = "Unknown OS";
+    var body = document.getElementsByTagName("body")
+    var img = document.getElementsByTagName("img")
+    if (navigator.userAgent.indexOf("Win") != -1) Name = "PC";
+    if (navigator.userAgent.indexOf("Mac") != -1) Name = "PC";
+    if (navigator.userAgent.indexOf("Linux") != -1) Name = "PC";
+    if (navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("iPod") != -1 || navigator.userAgent.indexOf("iTab") != -1 || navigator.userAgent.indexOf("Android") != -1) Name = "Android";
+    console.log(Name);
+    if (Name == "PC")
+    {
+      body[0].id = "bodyPC";
+      img[0].id = "imgPC";
+    }
+  </script>
 </body>
 </html>

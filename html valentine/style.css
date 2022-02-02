@@ -1,22 +1,40 @@
-body
+#bodyAndroid
+{
+    margin: 0px;
+    background-image: url(heart.gif);
+    background-repeat: no-repeat;
+}
+
+#bodyPC
 {
     margin: 0px;
     background-image: url(heart3.gif);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1
+#selamat
 {
-    font-family: Kunstler Script;
-    font-size: 60pt;
-    font-weight: bold;
+    font-family: "Kunstler Script";
+    font-size: 40pt;
     position: absolute;
-    left: 60px;
 }
 
-img
+@font-face {
+    font-family: "Kunstler Script";
+    src: url("KUNSTLER.woff");
+}
+
+#imgAndroid
 {
     position: absolute;
-    top: 141px;
-    left: 100px;
+    top: 304px;
+    left: 93px;
+}
+
+#imgPC
+{
+    position: absolute;
+    top: 304px;
+    left: 93px;
 }
